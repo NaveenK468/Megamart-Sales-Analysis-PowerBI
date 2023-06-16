@@ -1,0 +1,31 @@
+OBJECTIVE:
+MegaMart wants to enhance business success by leveraging data analysis techniques, particularly emphasizing time series analysis, to deliver actionable insights and precise sales forecasts.
+ 
+Areas I worked on:
+1) Data Cleaning
+2) Dax Queries
+3) Data Visualization
+4) Forecasting
+5) Final insights
+
+Steps undertaken:
+1) Data Cleaning:
+        The process includes applying filters to eliminate null, removing duplicates, rectifying typing errors, validating date formats, and trimming excess spaces.
+ 
+2) DAX Measure:
+        By employing the DAX measure "AvgDelivery = DATEDIFF('SuperStore_Sales_Dataset'[OrderDate],'SuperStore_Sales_Dataset'[Ship Date],Day)", we determined the average duration, in days, for completing a sale in the 'SuperStore_Sales_Dataset'.
+ 
+3) Data Visualization:
+        Generated visualizations to analyze and showcase sales, profits, and distribution across various categories, ship modes, states, payment modes, and segments using horizontal bar charts, line charts, and pie charts.
+
+4) Forecasting:
+        Based on sales forecasting analysis, it indicates imminent growth, empowering businesses to adapt and maximize revenue opportunities next 15 days.
+
+5) Final Insights:
+     i. Cash on delivery emerges as the most preferred payment mode, indicating a significant number of customers opt for this convenient payment option.
+    ii. The west region stands out as the top-performing region in terms of sales, highlighting its strong market presence and customer demand.
+   iii.	Among different customer segments, consumers rank highest in terms of the number of sales, suggesting a focus on targeting and catering to consumer needs and preferences.
+    iv.	Standard class emerges as the preferred ship mode in terms of sales, indicating that most customers opt for this reliable and cost-effective shipping option.
+     v.	Office supplies category demonstrates the highest sales, reflecting a consistent demand for products within this category.
+    vi.	Within the sub-categories, phones lead the sales, highlighting the popularity and importance of this particular product category.
+   vii.	California emerges as the top-performing state in terms of sales, showcasing its strong market potential and consumer base within the region.
